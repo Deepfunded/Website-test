@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prop Firm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>YourFirm</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">How It Works</a>
+
+            <a href="#">FAQ</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Trade Our Capital</h2>
+        <p>Pass the challenge and get funded up to $100,000</p>
+        <button>Start Challenge</button>
+    </section>
+
+    <section class="section">
+        <h2>How It Works</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>1. Take Challenge</h3>
+                <p>Prove your trading skills.</p>
+            </div>
+            <div class="card">
+                <h3>2. Get Funded</h3>
+                <p>Access our capital after passing.</p>
+            </div>
+            <div class="card">
+                <h3>3. Earn Profits</h3>
+                <p>Keep up to 80% of profits.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Eval Pricing Section ── -->
+    <section class="section eval-section">
+        <h2>Choose Your Evaluation</h2>
+        <p class="eval-subtitle">One-time payment. No subscriptions. Keep up to 80% of profits.</p>
+
+        <!-- Tab switcher -->
+        <div class="eval-tabs">
+            <button class="eval-tab active" data-plan="two-step">2-Step Challenge</button>
+            <button class="eval-tab" data-plan="one-step">1-Step Challenge</button>
+            <button class="eval-tab" data-plan="direct">Direct Funding</button>
+        </div>
+
+        <!-- ── 2-Step Challenge ── -->
+        <div class="eval-cards" id="plan-two-step">
+
+            <div class="eval-card">
+                <div class="eval-plan-type">2-STEP · BASIC</div>
+                <h3>25K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$75</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Step 1 Profit Target</span><span>9.5%</span></li>
+                    <li><span>Step 2 Profit Target</span><span>5.5%</span></li>
+                    <li><span>Max Loss</span><span>6.5%</span></li>
+                    <li><span>Daily Loss</span><span>3%</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤45%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">2-STEP · PRO</div>
+                <h3>25K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$95</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Step 1 Profit Target</span><span>10.5%</span></li>
+                    <li><span>Step 2 Profit Target</span><span>6.5%</span></li>
+                    <li><span>Max Loss</span><span>6.5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤40%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card featured">
+                <div class="eval-popular">MOST POPULAR</div>
+                <div class="eval-plan-type">2-STEP · BASIC</div>
+                <h3>50K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$139</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Step 1 Profit Target</span><span>9.5%</span></li>
+                    <li><span>Step 2 Profit Target</span><span>5.5%</span></li>
+                    <li><span>Max Loss</span><span>6.5%</span></li>
+                    <li><span>Daily Loss</span><span>3%</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤45%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">2-STEP · PRO</div>
+                <h3>50K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$169</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Step 1 Profit Target</span><span>10.5%</span></li>
+                    <li><span>Step 2 Profit Target</span><span>6.5%</span></li>
+                    <li><span>Max Loss</span><span>6.5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤40%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">2-STEP · BASIC</div>
+                <h3>100K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$229</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Step 1 Profit Target</span><span>9.5%</span></li>
+                    <li><span>Step 2 Profit Target</span><span>5.5%</span></li>
+                    <li><span>Max Loss</span><span>6.5%</span></li>
+                    <li><span>Daily Loss</span><span>3%</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤45%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">2-STEP · PRO</div>
+                <h3>100K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$269</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Step 1 Profit Target</span><span>10.5%</span></li>
+                    <li><span>Step 2 Profit Target</span><span>6.5%</span></li>
+                    <li><span>Max Loss</span><span>6.5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤40%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">2-STEP · BASIC</div>
+                <h3>150K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$319</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Step 1 Profit Target</span><span>9.5%</span></li>
+                    <li><span>Step 2 Profit Target</span><span>5.5%</span></li>
+                    <li><span>Max Loss</span><span>6.5%</span></li>
+                    <li><span>Daily Loss</span><span>3%</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤45%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">2-STEP · PRO</div>
+                <h3>150K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$359</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Step 1 Profit Target</span><span>10.5%</span></li>
+                    <li><span>Step 2 Profit Target</span><span>6.5%</span></li>
+                    <li><span>Max Loss</span><span>6.5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤40%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ── 1-Step Challenge ── -->
+        <div class="eval-cards hidden" id="plan-one-step">
+
+            <div class="eval-card">
+                <div class="eval-plan-type">1-STEP · BASIC</div>
+                <h3>25K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$80</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Profit Target</span><span>10–12%</span></li>
+                    <li><span>Max Loss</span><span>5.5%</span></li>
+                    <li><span>Daily Loss</span><span>2.5%</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤40%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">1-STEP · PRO</div>
+                <h3>25K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$99</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Profit Target</span><span>12–14%</span></li>
+                    <li><span>Max Loss</span><span>5.5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤35%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card featured">
+                <div class="eval-popular">MOST POPULAR</div>
+                <div class="eval-plan-type">1-STEP · BASIC</div>
+                <h3>50K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$199</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Profit Target</span><span>10–12%</span></li>
+                    <li><span>Max Loss</span><span>5.5%</span></li>
+                    <li><span>Daily Loss</span><span>2.5%</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤40%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">1-STEP · PRO</div>
+                <h3>50K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$229</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Profit Target</span><span>12–14%</span></li>
+                    <li><span>Max Loss</span><span>5.5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤35%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">1-STEP · BASIC</div>
+                <h3>100K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$289</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Profit Target</span><span>10–12%</span></li>
+                    <li><span>Max Loss</span><span>5.5%</span></li>
+                    <li><span>Daily Loss</span><span>2.5%</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤40%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">1-STEP · PRO</div>
+                <h3>100K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$329</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Profit Target</span><span>12–14%</span></li>
+                    <li><span>Max Loss</span><span>5.5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤35%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">1-STEP · BASIC</div>
+                <h3>150K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$369</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Profit Target</span><span>10–12%</span></li>
+                    <li><span>Max Loss</span><span>5.5%</span></li>
+                    <li><span>Daily Loss</span><span>2.5%</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤40%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">1-STEP · PRO</div>
+                <h3>150K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$409</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Profit Target</span><span>12–14%</span></li>
+                    <li><span>Max Loss</span><span>5.5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Min Trading Days</span><span>5</span></li>
+                    <li><span>Consistency Rule</span><span>≤35%</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Pass in as little as one day:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ── Direct Funding ── -->
+        <div class="eval-cards hidden" id="plan-direct">
+
+            <div class="eval-card">
+                <div class="eval-plan-type">DIRECT · BASIC</div>
+                <h3>10K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$179</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Max Loss</span><span>5%</span></li>
+                    <li><span>Daily Loss</span><span>2.5%</span></li>
+                    <li><span>Consistency Rule</span><span>≤30%</span></li>
+                    <li><span>No Challenge Required</span><span>✓</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Instant Funding:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">DIRECT · PRO</div>
+                <h3>10K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$199</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Max Loss</span><span>5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Consistency Rule</span><span>≤25%</span></li>
+                    <li><span>No Challenge Required</span><span>✓</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Instant Funding:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card featured">
+                <div class="eval-popular">MOST POPULAR</div>
+                <div class="eval-plan-type">DIRECT · BASIC</div>
+                <h3>20K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$269</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Max Loss</span><span>5%</span></li>
+                    <li><span>Daily Loss</span><span>2.5%</span></li>
+                    <li><span>Consistency Rule</span><span>≤30%</span></li>
+                    <li><span>No Challenge Required</span><span>✓</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Instant Funding:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">DIRECT · PRO</div>
+                <h3>20K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$299</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Max Loss</span><span>5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Consistency Rule</span><span>≤25%</span></li>
+                    <li><span>No Challenge Required</span><span>✓</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Instant Funding:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">DIRECT · BASIC</div>
+                <h3>30K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$349</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Max Loss</span><span>5%</span></li>
+                    <li><span>Daily Loss</span><span>2.5%</span></li>
+                    <li><span>Consistency Rule</span><span>≤30%</span></li>
+                    <li><span>No Challenge Required</span><span>✓</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Instant Funding:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+
+            <div class="eval-card">
+                <div class="eval-plan-type">DIRECT · PRO</div>
+                <h3>30K ACCOUNT</h3>
+                <div class="eval-price">
+                    <span class="eval-new">$379</span>
+                    <span class="eval-per">/ One Time</span>
+                </div>
+                <ul class="eval-stats">
+                    <li><span>Max Loss</span><span>5%</span></li>
+                    <li><span>Daily Loss</span><span>None</span></li>
+                    <li><span>Consistency Rule</span><span>≤25%</span></li>
+                    <li><span>No Challenge Required</span><span>✓</span></li>
+                </ul>
+                <div class="eval-badges">
+                    <div class="eval-badge-row"><span>Profit Split:</span><span class="badge">80%</span></div>
+                    <div class="eval-badge-row"><span>Instant Funding:</span><span class="badge check">✓</span></div>
+                </div>
+                <div class="eval-actions">
+                    <button class="btn-rules">View Rules</button>
+                    <button class="btn-select">Get Funded</button>
+                </div>
+            </div>
+    </section>
+
+
+    
+    <section class="section">
+        <h2>FAQ</h2>
+        <p>Got questions? We've got answers. More content coming soon.</p>
+    </section>
+
+
+    <section class="section">
+
+        <h1>Where you will find us</h1>
+        <ul id="socials">
+            <br>
+            <li><a href="https://www.instagram.com/deepfunded/"><h4>instagram</h4></a></li>
+            <li><a href="https://www.tiktok.com/@deepfunded"><h4>tiktok</h4></a></li>
+        </ul>
+
+    </section>
+
+
+    <footer>
+        <p>&copy; 2026 YourFirm. All rights reserved.</p>
+    </footer>
+
+<script>
+  // Tab switcher — show/hide plan groups
+  const planGroups = {
+    'two-step': document.getElementById('plan-two-step'),
+    'one-step':  document.getElementById('plan-one-step'),
+    'direct':    document.getElementById('plan-direct'),
+  };
+
+  document.querySelectorAll('.eval-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.eval-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const plan = tab.dataset.plan;
+      Object.entries(planGroups).forEach(([key, el]) => {
+        if (el) el.classList.toggle('hidden', key !== plan);
+      });
+    });
+  });
+</script>
+<script src="function.js"></script>
+</body>
+</html>
